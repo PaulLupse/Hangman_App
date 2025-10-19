@@ -24,7 +24,7 @@ număr (de regulă, numărul total de părți ale corpului, necesare desenării 
 sub spânzurătoare), jucătorul pierde partida.
 </p>
 
-## Conținut
+## Cuprins
 
 1. Structură
 2. Utilizare
