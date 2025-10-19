@@ -12,8 +12,7 @@ folosind versiuni anterioare, de la versiunea 3.4 a limbajului.
 
 <p align="justify">
 Jocul presupune participarea a doi jucători, deși unele variante pot include mai mulți jucători. 
-Pentru simplitate,
-în cele ce urmează, considerăm doi participanti la joc: jucătorul și jucătorul advers.
+Pentru simplitate, în cele ce urmează, considerăm doi participanti la joc: jucătorul și jucătorul advers.
 O partidă constă în ghicirea unui cuvânt ascuns de către jucător, cuvântul fiind propus
 de către jucătorul advers. Ghicirea cuvântului ascuns este asistată de abilitatea 
 jucătorului de a sugera litere despre care speculează că ar putea fii în cuvântul 
@@ -33,7 +32,7 @@ sub spânzurătoare), jucătorul pierde partida.
 4. Complexitate
 5. Limitări
 
-### 1. Structură 
+## 1. Structură 
 
 <p align="justify">
 Folder-ul de bază a aplicției conține script-ul principal, 'main.py', împreună cu licența, fișierul de 
@@ -52,7 +51,7 @@ Rezultatele rulării algoritmului sunt stocate în folder-ul 'results', iar mate
 localizate în folder-ul 'docs'.
 </p>
 
-### 2. Utilizare
+## 2. Utilizare
 
 #### Fișierele de intrare
 
@@ -147,7 +146,7 @@ acestora din folder-urile în interiorul cărora se află duce nefuncționarea a
 
 <p align="justify">
 Modul 'test' oferă o interfață grafică minimă utilizatorului, prin intermediul căreia se poate alege, printre altele,
-generarea de fișiere test, folosind dicționarul predefinit data/RomanianWords.txt. Meniurile din interfața grafică
+generarea de fișiere test, folosind dicționarul predefinit "data/RomanianWords.txt". Meniurile din interfața grafică
 sunt parcurse prin introducerea, de la tastatură, a unui număr corespunzător unei opțiuni prezentate pe ecran.
 
 Rularea cu succes a aplicației în modul test va determina apariția a următorului text în terminal:
@@ -171,7 +170,7 @@ urma selectării.
 Cea de-a patra opțiune determină ieșirea din program.
 </p>
 
-### 3. Algoritm
+## 3. Algoritm
 
 <p align="justify">
 Algoritmul de ghicire se bazează pe lista de cuvinte oferită prin intermediul fișierului dicționar, fie cel 
@@ -193,7 +192,7 @@ Scopul acestui algoritm este de a găsi, în cele din urmă, cuvântul ce trebui
 sugerând literele neîncercate până la acel moment, în ordinea frecvenței acestora în limba română.
 </p>
 
-### 4. Complexitate
+## 4. Complexitate
 
 <p align="justify">
 Rezolvarea fiecărei partide de joc în parte, mai precis ghicirea fiecărui cuvânt în parte, nu depinde în nici o 
@@ -217,7 +216,7 @@ Cazurile în care cuvântul ce trebuie ghicit se află în interiorul dicționar
 dicționarul predefinit, un număr mediu de 11 pași.
 </p>
 
-### 5. Limitări
+## 5. Limitări
 
 <p align="justify">
 Aplicația este limitată la limba română, deși adăugarea unei alte limbi este o sarcină trivială. 

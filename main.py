@@ -32,9 +32,11 @@ def main():
             guesser.run_input_file()
 
             print("Aplicația a fost rulată cu succes.")
+            input("Apăsați tasta 'enter' pentru a continua...")
+
     except:
         print("Aplicația a întâlnit o eroare și rularea a fost suspendată.")
-        raise
+        input("Apăsați tasta 'enter' pentru a continua...")
 
     return 0
 
